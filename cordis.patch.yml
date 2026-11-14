@@ -1,0 +1,5 @@
+# dsh-computer-use bundle patch: inserts the computer-use plugin into the
+# web profile roster. Applied as a profile bundle layer.
+- insert:
+    - id: computer-use
+      name: 'dsh-computer-use'
