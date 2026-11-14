@@ -1,7 +1,7 @@
 {
   "name": "dsh-computer-use",
   "description": "Computer Use plugin for DSH: AI agents can control the desktop via screenshot, mouse, keyboard, and window management tools. Powered by xdotool, ImageMagick, and xclip.",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "type": "module",
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
@@ -20,17 +20,20 @@
       "patch": "./cordis.patch.yml"
     }
   },
-  "dependencies": {},
-  "peerDependencies": {
-    "@deepseek-ai/dsh-tools": "^0.1.0-rc.8",
-    "@deepseek-ai/dsh-system-prompt": "^0.1.0-rc.8",
-    "@deepseek-ai/cordis": "^4.0.1"
-  },
   "files": [
     "lib/**/*.js",
     "lib/**/*.d.ts",
     "cordis.patch.yml",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Febloodfightying/dsh-computer-use.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Febloodfightying/dsh-computer-use/issues"
+  },
+  "homepage": "https://github.com/Febloodfightying/dsh-computer-use#readme",
   "license": "MIT"
 }
